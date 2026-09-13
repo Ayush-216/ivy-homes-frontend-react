@@ -6,8 +6,8 @@ A production-grade Next.js frontend built for the Ivy Homes engineering internsh
 
 1. **Clone and Install:**
    ```bash
-   git clone https://github.com/Ayush-216/ivy-homes-frontend.git
-   cd ivy-homes-frontend
+   git clone https://github.com/Ayush-216/ivy-homes-react.git
+   cd ivy-homes-react
    npm install
    ```
 
@@ -16,7 +16,7 @@ A production-grade Next.js frontend built for the Ivy Homes engineering internsh
 
    ```env
    NEXT_PUBLIC_API_BASE_URL=https://solve.ivy.homes
-   NEXT_PUBLIC_API_KEY=IVY26-3F9AD1C6793C
+   NEXT_PUBLIC_API_KEY=IVY26-**********
    ```
 
 3. **Run the Development Server:**
@@ -25,7 +25,7 @@ A production-grade Next.js frontend built for the Ivy Homes engineering internsh
    npm run dev
    ```
 
-   Open http://localhost:3000 to view the application.
+   Open http://localhost:5173 to view the application.
 
 ## 🤖 LLM & Tooling Disclosure
 
