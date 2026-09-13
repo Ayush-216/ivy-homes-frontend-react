@@ -6,13 +6,13 @@ A production-grade Next.js frontend built for the Ivy Homes engineering internsh
 
 1. **Clone and Install:**
    ```bash
-   git clone https://github.com/Ayush-216/ivy-homes-react.git
-   cd ivy-homes-react
+   git clone https://github.com/Ayush-216/ivy-homes-frontend-react.git
+   cd ivy-homes-frontend-react
    npm install
    ```
 
 2. **Environment Variables:**
-   Create a `.env.local` file in the root directory:
+   Create a `.env` file in the root directory:
 
    ```env
    NEXT_PUBLIC_API_BASE_URL=https://solve.ivy.homes
