@@ -6,8 +6,8 @@ import ListingsPage from './pages/ListingsPage';
 import ListingDetail from './pages/ListingDetail';
 import ProjectsPage from './pages/ProjectsPage';
 import ProjectDetail from './pages/ProjectDetail';
-// import RentalsPage from './pages/RentalsPage';
-// import RentalDetail from './pages/RentalDetail';
+import RentalsPage from './pages/RentalsPage';
+import RentalDetail from './pages/RentalDetail';
 import FavouritesPage from './pages/FavouritesPage';
 
 // Simple protected route wrapper
@@ -37,8 +37,8 @@ export default function App() {
           <Route path="/projects" element={<ProtectedRoute><ProjectsPage /></ProtectedRoute>} />
           <Route path="/projects/:id" element={<ProtectedRoute><ProjectDetail /></ProtectedRoute>} />
           
-          {/*<Route path="/rentals" element={<ProtectedRoute><RentalsPage /></ProtectedRoute>} />
-          <Route path="/rentals/:id" element={<ProtectedRoute><RentalDetail /></ProtectedRoute>} />*/}
+          <Route path="/rentals" element={<ProtectedRoute><RentalsPage /></ProtectedRoute>} />
+          <Route path="/rentals/:id" element={<ProtectedRoute><RentalDetail /></ProtectedRoute>} />
           
           <Route path="/favourites" element={<ProtectedRoute><FavouritesPage /></ProtectedRoute>} /> 
         </Routes>
