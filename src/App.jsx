@@ -2,8 +2,8 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import Navbar from './components/Navbar';
 import LoginPage from './pages/LoginPage';
-// import ListingsPage from './pages/ListingsPage';
-// import ListingDetail from './pages/ListingDetail';
+import ListingsPage from './pages/ListingsPage';
+import ListingDetail from './pages/ListingDetail';
 // import ProjectsPage from './pages/ProjectsPage';
 // import ProjectDetail from './pages/ProjectDetail';
 // import RentalsPage from './pages/RentalsPage';
@@ -31,10 +31,10 @@ export default function App() {
           <Route path="/" element={<LoginPage />} />
 
           {/* Protected Dashboard Routes */}
-          {/* <Route path="/listings" element={<ProtectedRoute><ListingsPage /></ProtectedRoute>} />
+          <Route path="/listings" element={<ProtectedRoute><ListingsPage /></ProtectedRoute>} />
           <Route path="/listings/:id" element={<ProtectedRoute><ListingDetail /></ProtectedRoute>} />
           
-          <Route path="/projects" element={<ProtectedRoute><ProjectsPage /></ProtectedRoute>} />
+          {/* <Route path="/projects" element={<ProtectedRoute><ProjectsPage /></ProtectedRoute>} />
           <Route path="/projects/:id" element={<ProtectedRoute><ProjectDetail /></ProtectedRoute>} />
           
           <Route path="/rentals" element={<ProtectedRoute><RentalsPage /></ProtectedRoute>} />
